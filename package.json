@@ -4,7 +4,9 @@
   "description": "YoptaScript - язык программирования для гопников и реальных пацанов.",
   "main": "./src/core.js",
   "scripts": {
-    "postinstall": "gulp build",
+      
+    "postinstall": "cd ./node_modules/yopta/ & npm install & gulp build",
+    "build": "gulp build",
     "dist": "gulp build",
     "start": "gulp watch",
     "test": "mocha"
