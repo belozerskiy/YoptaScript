@@ -4,10 +4,10 @@
   "description": "YoptaScript - язык программирования для гопников и реальных пацанов.",
   "main": "./src/core.js",
   "scripts": {
-    "preinstall": "npm install & npm run postinstall",
+    "preinstall": "npm install & exit 0",
+    "postinstall": "gulp build",
     "build": "gulp build",
     "dist": "gulp build",
-    "postinstall": "gulp build",
     "start": "gulp watch",
     "test": "mocha"
   },
