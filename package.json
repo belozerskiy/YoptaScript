@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp build",
     "dist": "gulp build",
-    "postinstall": "npm install & gulp build",
+    "postinstall": "gulp build",
     "start": "gulp watch",
     "test": "mocha"
   },
